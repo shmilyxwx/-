@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script type="text/javascript">
+//		xxx = "outer xxx";
+// 
+//console.log(xxx);// 运行结果：outer xxx
+// 
+//function testFtn(){
+// 
+//   sss = "inner sss";
+// 
+//   console.log(sss);// 运行结果：outer sss
+// 
+//}
+// 
+//testFtn();
+// 
+//console.log(sss);//运行结果：outer sss
+// 
+//console.log(window.sss);//运行结果：outer sss
+//function hehe()
+// 
+//{
+// 
+//  console.log(a);
+// 
+////     var a = 2;
+// 
+//  console.log(a);
+// 
+//}
+// 
+//hehe();
+var ftn1 = function(){
+ 
+        console.log("test:ftn1");
+ 
+    };
+ 
+var ftn2 = function(){
+ 
+        console.log("test:ftn2");
+ 
+};
+ 
+
+ 
+ftn1()// 运行结果：test:ftn1
+ 
+ftn1 = ftn2;
+ 
+
+ 
+
+ 
+console.log("====================华丽的分割线======================");
+ 
+ftn1();// 运行结果：test:ftn1
+	</script>
+</html>
